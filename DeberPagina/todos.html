@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Armonía Strings</a></li>
+                <li><a href="todos.html">Todos los productos</a></li>
+                <li><a href="v4.html">Violines 4/4</a></li>
+                <li><a href="v3.html">Violines 3/4</a></li>
+                <li><a href="v2.html">Violines 2/4</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="contentTodos">
+            <div class="item">
+                <img src="artículo_1.jpg" alt="Artículo 1">
+                <h3>Artículo 1</h3>
+                <p>Precio: $80.00</p>
+                <button onclick="agregarAlCarrito('Artículo 1', 80.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_2.jpg" alt="Artículo 2">
+                <h3>Artículo 2</h3>
+                <p>Precio: $140.00</p>
+                <button onclick="agregarAlCarrito('Artículo 2', 140.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_3.jpg" alt="Artículo 3">
+                <h3>Artículo 3</h3>
+                <p>Precio: $90.00</p>
+                <button onclick="agregarAlCarrito('Artículo 3', 90.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_4.jpg" alt="Artículo 4">
+                <h3>Artículo 4</h3>
+                <p>Precio: $100.00</p>
+                <button onclick="agregarAlCarrito('Artículo 4', 100.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_5.jpg" alt="Artículo 5">
+                <h3>Artículo 5</h3>
+                <p>Precio: $120.00</p>
+                <button onclick="agregarAlCarrito('Artículo 5', 120.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_6.jpg" alt="Artículo 6">
+                <h3>Artículo 6</h3>
+                <p>Precio: $200.00</p>
+                <button onclick="agregarAlCarrito('Artículo 6', 200.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_7.jpg" alt="Artículo 7">
+                <h3>Artículo 7</h3>
+                <p>Precio: $150.00</p>
+                <button onclick="agregarAlCarrito('Artículo 7', 150.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_8.jpg" alt="Artículo 8">
+                <h3>Artículo 8</h3>
+                <p>Precio: $110.00</p>
+                <button onclick="agregarAlCarrito('Artículo 8', 110.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_9.jpg" alt="Artículo 9">
+                <h3>Artículo 9</h3>
+                <p>Precio: $95.00</p>
+                <button onclick="agregarAlCarrito('Artículo 9', 95.00)">Añadir al Carrito</button>
+            </div>            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

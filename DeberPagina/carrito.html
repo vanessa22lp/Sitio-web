@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Armonía Strings</a></li>
+                <li><a href="todos.html">Todos los productos</a></li>
+                <li><a href="v4.html">Violines 4/4</a></li>
+                <li><a href="v3.html">Violines 3/4</a></li>
+                <li><a href="v2.html">Violines 2/4</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="contentCarrito">
+            <h1>Carrito de Compras</h1>
+
+            <div id="carrito-lista">
+
+            </div>
+
+            <div id="carrito-total">
+                <p>Total: <span id="total-precio">$0.00</span></p>
+            </div>
+
+            <div id="carrito-botones">
+                <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+                <button onclick="comprar()">Comprar</button>
+            </div>
+        </div>
+
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

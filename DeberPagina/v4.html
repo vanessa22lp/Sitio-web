@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>V4</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Armonía Strings</a></li>
+                <li><a href="todos.html">Todos los productos</a></li>
+                <li><a href="v4.html">Violines 4/4</a></li>
+                <li><a href="v3.html">Violines 3/4</a></li>
+                <li><a href="v2.html">Violines 2/4</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="contentTodos">
+            <div class="item">
+                <img src="artículo_1.jpg" alt="Artículo 1">
+                <h3>Artículo 1</h3>
+                <p>Precio: $80.00</p>
+                <button onclick="agregarAlCarrito('Artículo 1', 80.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_2.jpg" alt="Artículo 2">
+                <h3>Artículo 2</h3>
+                <p>Precio: $140.00</p>
+                <button onclick="agregarAlCarrito('Artículo 2', 140.00)">Añadir al Carrito</button>
+            </div>
+            
+            <div class="item">
+                <img src="artículo_3.jpg" alt="Artículo 3">
+                <h3>Artículo 3</h3>
+                <p>Precio: $90.00</p>
+                <button onclick="agregarAlCarrito('Artículo 3', 90.00)">Añadir al Carrito</button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
